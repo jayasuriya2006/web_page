@@ -1,27 +1,27 @@
-<<<<<<< HEAD
+
 #insta{
     position:sticky;
-    left: 3%;
+    left: 0%;
 }
 #Whasapp{
-      position:sticky;
-       left:90%
+      position: absolute;
+       left:20%
 }
 #leet{
-     position: sticky;    
-    left: 60%;  
+     position: absolute;    
+    left: 39%;  
 }
 #linked{
-    position: sticky;    
-    left: 20%;
+    position: absolute;    
+    left: 58%;
 }
 #git{
-     position: sticky;    
-    left: 77%;
+     position: absolute;    
+    left:78%;
 }
 #mail{
- position: sticky;    
-    left: 40%;   
+ position: absolute;    
+    left: 92%;   
 }
 body::before {
     content: "";
@@ -38,45 +38,4 @@ body::before {
 }
 .img{
     color: wheat;
-=======
-#insta{
-    position:sticky;
-    left: 3%;
-}
-#Whasapp{
-      position:sticky;
-       left:90%
-}
-#leet{
-     position: sticky;    
-    left: 60%;  
-}
-#linked{
-    position: sticky;    
-    left: 20%;
-}
-#git{
-     position: sticky;    
-    left: 77%;
-}
-#mail{
- position: sticky;    
-    left: 40%;   
-}
-body::before {
-    content: "";
-    position:fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: url("src/back_2.jpg") no-repeat center center fixed;
-    background-size: cover;
-    opacity: 0.3;  
-    z-index: -1;    
-}
-.link{
-    color:white;
-    text-decoration: none;
-}
-.img{
-    color: wheat;
->>>>>>> bbcfa6ee4d722296fe372e0628b88f4e6526e8d8
 }
